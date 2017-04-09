@@ -5,7 +5,7 @@ class App extends Component {
   render () {
     return (
       <a-scene>
-        <a-sky src='wero.jpg' rotation='0 -130 0'></a-sky>
+        <a-sky src='wero.jpg' rotation='0 -240 0'></a-sky>
       </a-scene>
     )
   }
