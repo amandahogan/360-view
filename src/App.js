@@ -10,6 +10,10 @@ class App extends Component {
     return (
       <Scene>
         <Entity primitive='a-sky' src='wero.jpg' rotation='0 -240 0' />
+        <Entity geometry={{primitive: 'box'}} material={{color: 'red'}} position={{x: 0, y: 0, z: -5}} />
+        <Entity particle-system={{preset: 'snow'}} />
+        <Entity light={{type: 'point'}} />
+        <Entity text={{value: 'Hello, WebVR!'}} />
       </Scene>
     )
   }

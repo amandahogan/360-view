@@ -1,5 +1,6 @@
 {
   "name": "360-view",
+  "homepage": "https://amandahogan.github.io/360-view",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "homepage": "https://amandahogan.github.io/360-view",
     "deploy": "npm run build&&gh-pages -d build"
   }
 }
